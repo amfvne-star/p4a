@@ -1,5 +1,7 @@
 .env
-.DS_Store
+**/.DS_Store
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+project_group23/extract_pdf.py
+project_group23/extracted_text.txt
