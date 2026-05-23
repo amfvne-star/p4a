@@ -13,7 +13,7 @@
 -- limit 100;
 
 create table a20254350.postings_with_benefits as
-select post.*, ben.job_benefits
+select post.*, ben.job_benefits as benefits
 from postings post
     inner join (
         select ben.job_id, GROUP_CONCAT(ben.type SEPARATOR '; ') as job_benefits
